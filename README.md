@@ -1,7 +1,3 @@
-# food-ingredients-ML
-List of ingredients 
-## Dataset
+from datasets import load_dataset
 
-This project uses a dataset from Hugging Face:
-
-https://huggingface.co/datasets/RitishaAmod123/food-ingredients-dataset
+dataset = load_dataset("RitishaAmod123/food-ingredients-dataset")
